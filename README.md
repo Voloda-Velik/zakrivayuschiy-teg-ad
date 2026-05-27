@@ -1,1 +1,1 @@
-https://voloda-velik.github.io/zakrivayuschiy-teg-ad/
+https://github.com/Voloda-Velik/zakrivayuschiy-teg-ad
