@@ -56,8 +56,6 @@
 .section {
   display: flex;
   flex-direction: column;
-  align-self: center;
-  width: 75%;
   gap: 0;
   background-color: white;
   font-size: 18px;
