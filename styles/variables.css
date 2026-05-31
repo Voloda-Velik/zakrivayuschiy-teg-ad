@@ -1,24 +1,23 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --font-main: 'Inter-Variable';
-    --font-pixeled: 'PressStart2P';
-    --font-weight_regular: 400;
-    --font-weight_title: 700;
-    --button-hover_animation-time: 0.5s;
-    --watermark_text_shadow: white;
-    --watermark_shadow_size: 1px;
-    
-    --sd__header_title_font-size: 65px;
-    --sd__header_subtitle_font-size: 23px;
-    --sd__stretch_inline-size: clamp(320px, 55dvi, 1440px);
-    --sd__header_block-size: 368px;
-    --sd__section_header_padding-block: 3px;
-    --sd__save-button_flex-direction: row;
-    --sd__save-button_image-size: 21px;
-    --sd__save-dialog_inline-size: clamp(353px, 30dvi, 600px);
-    --sd__section_image_watermark_right: 25px;
-    --page-bg: 
-        repeating-linear-gradient(90deg, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
-        repeating-linear-gradient(0deg, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
-        linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+    --main-font: "Inter-Variable", sans-serif;
+    --accent-font: "PressStart2P-Regular", fantasy;
+    --card-text-weight: 400;
+    --card-title-weight: 700;
+    --base-font-size: 18px;
+    --accent-font-size: 14px;
+    --background-color: #FFFFFF;
+    --accent-color: #000000;
+    --shadow-stroke: 1px #000;
+    --text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    --card-gap: 50px;
+    --contour-color: black;
+    --animation-fill-color: red;
+    --time: 0.5s;
+    --heart-contour-color: black;
+    --heart-sparks-color: red;
+    --background-image:
+        repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+        repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
 }
